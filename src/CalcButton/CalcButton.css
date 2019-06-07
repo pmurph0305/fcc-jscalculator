@@ -1,0 +1,15 @@
+.calc-button {
+  background-color: rgb(221, 221, 221);
+  border: 1px solid black;
+  color: black;
+  padding: 3px 5px;
+  margin: 0.1em;
+}
+
+.calc-button:focus {
+  outline-color: black;
+}
+
+.calc-button:hover {
+  background-color: rgb(180, 180, 180);
+}

@@ -4,7 +4,7 @@ import './CalcButton.css';
 
 const CalcButton = ({keyId, displayed}) => {
   return (
-    <button id={keyId}>{displayed}</button>
+    <button className='calc-button' id={keyId}>{displayed}</button>
   )
 }
 
