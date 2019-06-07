@@ -2,9 +2,9 @@ import React from 'react';
 
 import './CalcButton.css';
 
-const CalcButton = ({keyId, displayed}) => {
+const CalcButton = ({keyId, displayed, onClick}) => {
   return (
-    <button className='calc-button' id={keyId}>{displayed}</button>
+    <button className='calc-button' onClick={() => onClick(displayed)} id={keyId}>{displayed}</button>
   )
 }
 

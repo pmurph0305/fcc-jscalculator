@@ -6,10 +6,18 @@
   grid-template-columns: 3fr 1fr;
   grid-template-areas: "display display" "keys operators";
   background-color: rgb(64, 80, 95);
+  border: 1px solid black;
+  padding: 0.5em;
 }
 
 .display {
   grid-area: display;
+  background-color: black;
+  color: green;
+  text-align: right;
+  margin: auto 0.1em;
+  padding-right: 0.2em;
+  font-size: 1.5em;
 }
 
 .keys-container {
@@ -26,11 +34,4 @@
 
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-}
-
-.display {
-  text-align: right;
-  margin: auto 0;
-  padding-right: 0.25em;
-  font-size: 1.5em;
 }
