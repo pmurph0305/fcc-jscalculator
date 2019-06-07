@@ -2,7 +2,7 @@
   "name": "fcc-jscalculator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pmurph0305.github.io/fcc-drummachine/",
+  "homepage": "https://pmurph0305.github.io/fcc-jscalculator/",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
