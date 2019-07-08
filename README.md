@@ -8,6 +8,6 @@ It's an calculator app that does the calculations with immediate execution logic
 
 It was created using React, and deployed with gh-pages.
 
-You can be run it locally with `npm start`
+You can run it locally with `npm start`
 
 Or you can visit the website in the description above to view the gh-pages version.
